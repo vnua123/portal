@@ -1,0 +1,860 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- CSRF Token -->
+    <meta name="csrf-token" content="zPW34d4sqCXSNJaHVLtzGqVKym2fzZ3V7oppH0Oc">
+
+ <title>     Home
+ | Veritas University, Abuja </title>
+ <link rel="shortcut icon" href="https://admissions.veritas.edu.ng/img/letter_logo.png" >
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/fontawesome-free/css/all.min.css"/>
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css"/>
+  <!-- iCheck -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/icheck-bootstrap/icheck-bootstrap.min.css"/>
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/jqvmap/jqvmap.min.css"/>
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/dist/css/adminlte.min.css"/>
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/overlayScrollbars/css/OverlayScrollbars.min.css"/>
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/daterangepicker/daterangepicker.css"/>
+  <!-- summernote -->
+  <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/summernote/summernote-bs4.css"/>
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+
+    <!-- Ekko Lightbox -->
+    <link rel="stylesheet" href="https://admissions.veritas.edu.ng/v3/plugins/ekko-lightbox/ekko-lightbox.css">
+
+
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+   <nav class="main-header navbar navbar-expand navbar-white navbar-light mb-2" style="padding-bottom: 1.4rem;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" style="color: #218c74;" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+        </li>
+        
+      <li>
+ 
+      
+
+      
+                 </li>
+
+    </ul>
+
+    <!-- SEARCH FORM -->
+
+
+    <!-- Right navbar links -->
+
+</nav>
+
+  <!-- /.navbar -->
+
+
+  <!-- Main Sidebar Container -->
+   <aside class="main-sidebar sidebar-dark-primary elevation-4"style="background-color: #218c74; color: #fff"v>
+    <!-- Brand Logo -->
+
+    <div class="bg-white text-center">
+        <a class="navbar-brand" href="https://admissions.veritas.edu.ng/students/home">
+            <img src="https://admissions.veritas.edu.ng/img/veritasin.jpg" alt="" width="170" height="60" class="px-2">
+        </a>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a class="navbar-brand" href="https://admissions.veritas.edu.ng/students/profile">
+            <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+
+                <div class="image">
+                    <img src="data:image/png;base64,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"
+                        class="img-circle elevation-2" alt="User Image" style="width: 50px;">
+                </div>
+
+                <div class="info text-wrap">
+                    <div class="d-block">IHUWE, Afa Fedora</div>
+                </div>
+
+            </div>
+            </a>
+
+            <!-- Sidebar Menu -->
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                    data-accordion="false">
+
+                    <li class="nav-item ">
+                        <a href="https://admissions.veritas.edu.ng/students/home" class="nav-link ">
+                            <i class="fa fa-home nav-icon"></i>
+                            <p>Dashbord</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview     menu-open
+">
+                        <a href="#" class="nav-link ">
+                            <i class="nav-icon fas fa-user-alt"></i>
+                            <p>
+                                Profile
+                                <i class="right fas fa-angle-right"></i>
+                            </p>
+                        </a>
+
+                        <ul class="nav nav-treeview">
+
+                            <li class="nav-item">
+                                <a href="https://admissions.veritas.edu.ng/students/profile" class="nav-link ">
+                                    <i class="fa fa-user-alt nav-icon"></i>
+                                    <p>View Profile</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://admissions.veritas.edu.ng/students/password" class="nav-link ">
+                                    <i class="fa fa-unlock-alt nav-icon"></i>
+                                    <p>Change Password</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item has-treeview ">
+                        <a href="#" class="nav-link ">
+                            <i class="nav-icon fa fa-book"></i>
+                            <p>
+                                Courses
+                                <i class="right fas fa-angle-right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                                                 
+                            
+                            
+                              <li class="nav-item">
+                                <a href="/students/closed-course-registration" class="nav-link ">
+                                    <i class="fa fa-tasks nav-icon"></i>
+                                    <p>Course Registration</p>
+                                </a>
+                            </li>
+       
+
+                            
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item has-treeview ">
+                    <a href="#" class="nav-link ">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Results
+                            <i class="right fas fa-angle-right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="https://admissions.veritas.edu.ng/students/results" class="nav-link ">
+                                <i class="fa fa-eye nav-icon"></i>
+                                <p>Academic Results</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://admissions.veritas.edu.ng/students/transcript" class="nav-link ">
+                                <i class="fa fa-eye nav-icon"></i>
+                                <p>Unofficial Transcript</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                    <li class="nav-item has-treeview ">
+                        <a href="#" class="nav-link ">
+                            <i class="nav-icon fa fa-credit-card"></i>
+                            <p>
+                                Remita
+                                <i class="right fas fa-angle-right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="/students/remita/paymentview/{id}" class="nav-link ">
+                                    <i class="fa fa-eye nav-icon"></i>
+                                    <p>View Remita Payment</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/students/remita/feestype" class="nav-link ">
+                                    <i class="fa fa-plus-circle nav-icon"></i>
+                                    <p>Generate Payment</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                     <li class="nav-item ">
+                        <a href="/student/getvoucherstudent" class="nav-link ">
+                              <i class="fas fa-plus-circle nav-icon"></i>
+                              <p>Voucher Code</p>
+                         </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://admissions.veritas.edu.ng/students/logout" class="nav-link"Contact
+                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                            <i class="fas fa-power-off nav-icon text-danger"></i>
+                              Logout
+                            <form id="logout-form" action="https://admissions.veritas.edu.ng/students/logout" method="POST"
+                                style="display: none;">
+                                <input type="hidden" name="_token" value="zPW34d4sqCXSNJaHVLtzGqVKym2fzZ3V7oppH0Oc">                            </form>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>
+
+
+
+  <!-- Content Wrapper. Contains page content -->
+       <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+
+        <!-- Main content -->
+        <section class="content bg-white">
+            <!-- Flash messages
+    ======================================================================== -->
+
+<!-- display input success if any exists -->
+
+<!-- display input message if any exists -->
+
+<!-- display input errors if any exists -->
+
+<!-- display input errors if any exists -->
+
+
+<!-- display input errors if any exists -->
+
+
+    <!--Flash messages / End -->
+            <div class="container-fluid">
+                <h1 class="app-page-title text-uppercase h5 font-weight-bold p-2 mb-2 shadow-sm text-center text-success border">
+                    Students Profile
+                </h1>
+                <div class="row py-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="app-card app-card-account shadow d-flex flex-column align-items-start ">
+
+                            <div class="app-card-header p-3 border-bottom-0">
+                                <div class="row align-items-center gx-3">
+                                    <div class="col-auto">
+                                        <h4 class="app-card-title">Bio Data</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label mb-2">
+                                                <strong>Passport</strong>
+                                            </div>
+                                            <div class="rounded-circle">
+                                                <img class="rounded-circle p-3 mx-auto d-block"
+                                                    src="data:image/png;base64,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"
+                                                    alt="Student Passport" style="height: 200px; width:200px;" />
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <div class="item-label mb-2">
+                                                <strong>Signature</strong>
+                                            </div>
+                                            <div class="rounded-circle">
+                                                <img class="rounded-circle p-3 mx-auto d-block"
+                                                    src="data:image/png;base64,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"
+                                                    alt="Student signature" style="height: 200px; width:200px;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Surname</strong></div>
+                                            <div class="item-data">IHUWE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>First Name</strong></div>
+                                            <div class="item-data">
+                                                AFA
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Other Name</strong></div>
+                                            <div class="item-data">
+                                                FEDORA
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Username</strong></div>
+                                            <div class="item-data">
+                                                vug/mac/20/3892@sos.veritas.edu.ng
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Phone Number</strong></div>
+                                            <div class="item-data">09072692278
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--//app-card-->
+                    </div>
+                    <!--//col-->
+                    <div class="col-12 col-lg-6">
+                        <div class="app-card app-card-account shadow d-flex flex-column align-items-start">
+                            <!--//app-card-header-->
+                            <div class="app-card-body px-4 w-100">
+
+
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Email</strong></div>
+                                            <div class="item-data">fedorai88@gmail.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Gender</strong></div>
+                                            <div class="item-data">Female
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Date of Birth</strong></div>
+                                            <div class="item-data">2001-07-09</div> 
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Religion</strong></div>
+                                            <div class="item-data">Christian(Non-Catholic)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Nationality</strong></div>
+                                            <div class="item-data">
+                                                Nigeria
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Address</strong></div>
+                                            <div class="item-data">Achusa Makurdi
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>State of Origin</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                Benue
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>LGA</strong></div>
+                                            <div class="item-data">Ukum
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label"><strong>Hobbies</strong></div>
+                                            <div class="item-data">READING, SINGING AND DANCING
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-12 mt-3">
+                        <div class="app-card app-card-account shadow d-flex flex-column align-items-start">
+                            <div class="app-card-header p-3 border-bottom-0">
+                                <div class="row align-items-center px-3">
+                                    <div class="col-auto">
+                                        <h4 class="app-card-title">Sponsor Details</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Title</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                Mrs
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Surname</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                IHUWE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Surname</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                AZA DORCAS
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Email </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                azadorcas135@gmail.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Phone Number </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                09050818120
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-3">
+                        <div class="app-card app-card-account shadow d-flex flex-column align-items-start">
+                            <div class="app-card-header p-3 border-bottom-0">
+                                <div class="row align-items-center px-3">
+                                    <div class="col-auto">
+                                        <h4 class="app-card-title">Academic Information</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Mode of Entry</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                UTME
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Mode of Study</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                Full Time
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Matric Number</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                VUG/MAC/20/3892
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Program </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                Mass Communication
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Level </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                400
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Entry Session </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                2020/2021
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Jamb No </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                20299776HA
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Jamb Score </strong>
+                                            </div>
+                                            <div class="item-data">
+                                                214
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="app-card app-card-account shadow d-flex flex-column align-items-start">
+                            <div class="app-card-header p-3 border-bottom-0">
+                                <div class="row align-items-center px-3">
+                                    <div class="col-auto">
+                                        <h4 class="app-card-title">Medical Information</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Physical Status</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                normal
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Blood Group</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                O+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Genotype</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                AA
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Known Medical Condition</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                NONE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-card-body px-4 w-100">
+                                <div class="item border-bottom py-3">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="item-label">
+                                                <strong>Allergies</strong>
+                                            </div>
+                                            <div class="item-data">
+                                                NONE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.content -->
+    </div>
+
+  <!-- /.content-wrapper -->
+
+
+
+
+
+
+<!-- Footer starts -->
+
+
+ <footer class="main-footer">
+    <strong> &copy 2022 Copyright <a href="https://www.veritas.edu.ng" class="text-success"> Veritas University ICT</a>.</strong>
+    All rights reserved.
+      
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 2.1
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="https://admissions.veritas.edu.ng/v3/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/moment/moment.min.js"></script>
+<script src="https://admissions.veritas.edu.ng/v3/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="https://admissions.veritas.edu.ng/v3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="https://admissions.veritas.edu.ng/v3/dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
+        integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+   
+</script>
+
+<!-- AdminLTE for demo purposes -->
+<script src="https://admissions.veritas.edu.ng/v3/dist/js/demo.js"></script>
+     <script src="https://admissions.veritas.edu.ng/js/bootbox.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="https://admissions.veritas.edu.ng/v3/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Ekko Lightbox -->
+    <script src="https://admissions.veritas.edu.ng/v3/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
+
+    <script>
+        $(function() {
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({
+                    alwaysShowClose: true
+                });
+            });
+
+            $('.filter-container').filterizr({
+                gutterPixels: 3
+            });
+            $('.btn[data-filter]').on('click', function() {
+                $('.btn[data-filter]').removeClass('active');
+                $(this).addClass('active');
+            });
+        })
+    </script>
+</body>
+</html>
